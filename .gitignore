@@ -1,0 +1,41 @@
+# Simulation files
+*.vcd
+*.wlf
+*.vvp
+*.log
+
+# Verilog simulator temporary files
+work/
+*.bak
+*.tmp
+
+# ModelSim / QuestaSim
+transcript
+vsim.wlf
+modelsim.ini
+
+# Vivado
+.vivado/
+vivado.log
+vivado.jou
+vivado_pid*
+*.xpr
+*.runs/
+*.cache/
+*.hw/
+*.sim/
+*.gen/
+
+# Icarus Verilog
+a.out
+
+# GTKWave
+*.gtkw
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
